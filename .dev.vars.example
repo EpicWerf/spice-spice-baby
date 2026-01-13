@@ -1,0 +1,6 @@
+# Copy this file to .dev.vars and fill in your values
+# These are used for local development with `wrangler dev`
+
+ANTHROPIC_API_KEY=sk-ant-xxxxx
+PAPRIKA_EMAIL=your-email@example.com
+PAPRIKA_PASSWORD=your-paprika-password

@@ -1,0 +1,24 @@
+{
+  "name": "spice-spice-baby",
+  "version": "1.0.0",
+  "description": "Email-to-Paprika recipe extraction agent using Claude Vision",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.52.0",
+    "pdf-parse": "^2.4.5",
+    "postal-mime": "^2.4.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250109.0",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8",
+    "wrangler": "^3.101.0"
+  }
+}

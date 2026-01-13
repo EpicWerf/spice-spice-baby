@@ -1,0 +1,16 @@
+name = "spice-spice-baby"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+# Workers AI binding for Whisper transcription
+[ai]
+binding = "AI"
+
+# Environment variables (set via `wrangler secret put`)
+# ANTHROPIC_API_KEY - Your Claude API key
+# PAPRIKA_EMAIL - Your Paprika account email
+# PAPRIKA_PASSWORD - Your Paprika account password
+# RAPIDAPI_KEY - Your RapidAPI key for TikTok/Instagram video downloads
+
+# Email routing - configure in Cloudflare dashboard
+# This worker will receive emails sent to your configured address
