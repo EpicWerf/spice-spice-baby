@@ -2,6 +2,10 @@ name = "spice-spice-baby"
 main = "src/index.ts"
 compatibility_date = "2024-12-01"
 
+[observability.logs]
+enabled = true
+invocation_logs = true
+
 # Workers AI binding for Whisper transcription
 [ai]
 binding = "AI"
